@@ -62,8 +62,8 @@ parent-project (1.0.0)
 
 ## 反馈与贡献
 
-如果您有任何问题或建议，请在[GitHub仓库](https://github.com/felixsun/maven-project-version-plugin-vs)提交issue或pull request。
+如果您有任何问题或建议，请在[GitHub仓库](https://github.com/Felixzz/maven-project-version-plugin-vs)提交issue或pull request。
 
 ## 许可证
 
-[MIT License](https://github.com/felixsun/maven-project-version-plugin-vs/blob/main/LICENSE)
+[MIT License](https://github.com/Felixzz/maven-project-version-plugin-vs/blob/main/LICENSE)
