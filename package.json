@@ -1,0 +1,49 @@
+{
+  "name": "maven-project-version-plugin-vs",
+  "displayName": "Maven Project Version",
+  "description": "一个用于批量更新Maven项目版本号的VS Code插件",
+  "publisher": "felixsun",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felixsun/maven-project-version-plugin-vs.git"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "workspaceContains:pom.xml"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "maven-project-version-plugin-vs.updateVersion",
+        "title": "更新Maven项目版本",
+        "category": "Maven"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "dependencies": {
+    "glob": "^10.3.10",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.97.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.19.0"
+  }
+}
